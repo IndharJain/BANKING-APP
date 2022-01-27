@@ -46,6 +46,7 @@ const Applynew =(props)=> {
         email,
         title,
         mobile,
+        pan,
         aadhar
       
       )
@@ -82,15 +83,15 @@ const Applynew =(props)=> {
   return (<div className="application">
 
     <form>
-    <center><h1 id="colorhead"><label>Application Form for New Account</label></h1></center>
+    <center><h1 id="colorhead"><label><h2>Application Form</h2></label></h1></center>
     <div class="form-group">
     <label>Select Title</label>
      <select onChange={(e) => {
       setTitle(e.target.value);
     }} 
     name="title" value={title} id="cars">
-  <option value="mr">Mr</option>
   <option value="ms">Ms</option>
+  <option value="mr">Mr</option>
   <option value="mrs">Mrs</option>
   </select>
   </div>
@@ -127,7 +128,7 @@ const Applynew =(props)=> {
     }}
     value={email} class="form-control" id="exampleInputEmail1"
      aria-describedby="emailHelp" placeholder="Enter email"/>
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    
   </div>
 
  

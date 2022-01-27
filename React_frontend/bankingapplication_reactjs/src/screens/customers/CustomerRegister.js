@@ -67,8 +67,8 @@ const CustRegs = (props) => {
 
   return (
     <div>
-      <Card style={{backgroundColor:"orange"}}>
-        <Card.Header>Registration  Form NetBanking</Card.Header>
+      <Card style={{backgroundColor:"skyblue"}}>
+        <Card.Header>Registration Form NetBanking</Card.Header>
         <Card.Body>
           <Form.Row>
             <Form.Group as={Col}>
@@ -169,10 +169,7 @@ const CustRegs = (props) => {
         </div>
        
       </Card>
-      <marquee width="80%" direction="left" height="100px">
-      <h5 id="marquee">Please Register Carefully........
-      </h5>
-      </marquee>
+      
     </div>
   );
 };

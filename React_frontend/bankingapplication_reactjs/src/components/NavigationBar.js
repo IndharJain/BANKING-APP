@@ -31,7 +31,7 @@ const NavigationBar = (props) => {
     </div> 
       <Nav className="navbar-right">
         <Link to="/adminlogin" className="nav-link">
-          Admin Login
+          Login
         </Link>
       </Nav>
     </Navbar>

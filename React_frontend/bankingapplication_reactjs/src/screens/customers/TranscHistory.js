@@ -25,7 +25,7 @@ const TransactionHistory = (props) => {
       <Card.Header>Transaction History</Card.Header>
       <Card.Body>
         <div>
-          <Table bordered hover striped variant="dark">
+          <Table bordered hover striped variant="primary">
             <thead className="text-white">
               <tr>
                 <th>Date</th>

@@ -26,12 +26,14 @@ import {
 } from "../../constants/customerConstant/CustConst";
 import axios from "axios";
 
+
 export const NewApplication = (
   fullname,
   date,
   email,
   title,
   mobile,
+  pan,
   aadhar
 ) => {
   return (dispatch) => {
@@ -50,7 +52,8 @@ export const NewApplication = (
       email,
       title,
       mobile,
-      aadhar
+      pan,
+      aadhar,
       }
     
     console.log(body);

@@ -23,7 +23,7 @@ import TransactionHistory from "./TranscHistory";
 import ChangePass from "./ChangePass";
 import { history } from "react-router-dom";
 
-const drawerWidth = 280;
+const drawerWidth = 200;
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -104,11 +104,6 @@ export default function PersistentDrawerLeft(props) {
         return <MakeTransaction />;
       case "HISTORY":
         return <TransactionHistory />;
-
-      // case "CHANGEMOB":
-      //   return <ChangeMobNo />;
-      // case "CHANGEEMAIL":
-      //   return <ChangeEmail />;
       case "CHANGEPASS":
         return <ChangePass />;
       default:
@@ -142,7 +137,7 @@ export default function PersistentDrawerLeft(props) {
               <MenuIcon />
             </IconButton>
             <Typography variant="h6" noWrap>
-              Customer Home
+              Home
             </Typography>
           </Toolbar>
         </AppBar>

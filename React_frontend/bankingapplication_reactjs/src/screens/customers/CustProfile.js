@@ -12,7 +12,7 @@ const CustProfile = (props) => {
       <Container className="text-dark">
         {" "}
         <Card className={"border border-dark bg-white text-dark"}>
-          <Card.Header>Profile</Card.Header>
+          <Card.Header><h2>Profile</h2></Card.Header>
           <Card.Body>
             <h4>Personal Information</h4>
             <div>First Name : {customer.firstName}</div>
@@ -35,26 +35,6 @@ const CustProfile = (props) => {
      
     </div>
     
-    
-    <div className="smalldetails">
-       
-    <marquee width="100%" direction="up" behavior="slide" height="300px">
-    <div>
-    <ul>
-    <li style={{color:"blue"}}>
-    Here You Are In welcome Page .You Can Make Transaction To Your Payee...
-    </li><br></br>
-    <li style={{color:"orange"}}>
-    Here You Are In welcome Page .You Can Make Transaction To Your Payee...
-    </li><br></br>
-    <li style={{color:"green"}}>
-    Here You Are In welcome Page .You Can Make Transaction To Your Payee...</li>
-   
-    
-    </ul>
-    </div>
-     </marquee>
-    </div>
     </div>
   );
 };

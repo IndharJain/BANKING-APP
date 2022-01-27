@@ -33,7 +33,7 @@ const AdminLogin = (props) => {
     <div className="admincard">
     <Card style={{backgroundColor:"rgba(133, 221, 217, 0.753)"}}>
   
-      <Card.Header><h2 className="admin-head">ADMIN LOGIN</h2></Card.Header>
+      <Card.Header><h2 className="admin-head"> LOGIN</h2></Card.Header>
       <Card.Body>
         <div>
           <div className="form">
